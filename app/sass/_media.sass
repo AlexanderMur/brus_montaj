@@ -1,0 +1,82 @@
+@import "vars"
+
+/*==========  Desktop First  ==========*/
+
+/* Large Devices, Wide Screens */
+
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px)
+	body
+		.nav
+			font-size: 12px
+			a
+				font-size: 12px
+			.button
+				white-space: nowrap
+			.phone
+				font-size: 14px
+				text-align: right
+	.card-row
+		justify-content: space-around !important
+
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px)	
+	.nav
+		padding-bottom: 20px
+		.contact-info
+			text-align: center
+			.phone
+				justify-content: center
+				margin-top: 10px
+			.call
+				text-align: center
+				margin-top: 10px
+				.button
+					width: 300px
+		.logo
+			text-align: center
+			display: block
+		.nav-menu
+			display: none
+		#my-menu-button
+			display: block
+			z-index: 1
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px)
+	/**/
+
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px)
+	/**/
+
+
+/*==========  Mobile First  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px)
+	/**/
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px)
+	/**/
+
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px)	
+	.container
+		width: auto
+
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px)
+	/**/
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px)
+	.container
+		max-width: 1025px
+	
